@@ -1,0 +1,204 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 558, 315
+STYLE DS_ABSALIGN | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "硬件信息修改器 v1.0"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "硬盘",IDC_STATIC,7,7,176,279
+    COMBOBOX        IDC_COMBO1,15,21,46,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "修改序列号",IDC_BUTTON1,15,36,154,17
+    EDITTEXT        IDC_EDIT1,67,21,101,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "随机化修改全部序列号",IDC_BUTTON2,15,55,154,17
+    EDITTEXT        IDC_EDIT2,52,82,117,12,ES_AUTOHSCROLL
+    CONTROL         "自定义模式",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,132,104,10
+    CONTROL         "随机化模式",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,146,104,10
+    CONTROL         "全清空模式",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,160,104,10
+    PUSHBUTTON      "加载驱动程序",IDC_BUTTON3,7,294,244,14
+    PUSHBUTTON      "卸载驱动程序",IDC_BUTTON4,307,294,244,14
+    CONTROL         "随机化硬盘GUID模式",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,186,104,10
+    CONTROL         "全清空硬盘VOLUMN模式",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,199,104,10
+    PUSHBUTTON      "尝试禁用SMART(可能蓝屏)",IDC_BUTTON5,15,258,154,17
+    PUSHBUTTON      "尝试无HOOK修改序列号(可能蓝屏)",IDC_BUTTON6,15,237,154,17
+    EDITTEXT        IDC_EDIT3,52,220,117,12,ES_AUTOHSCROLL
+    GROUPBOX        "BOIS",IDC_STATIC,191,7,176,146
+    PUSHBUTTON      "随机化序列号/版本号(可能蓝屏)",IDC_BUTTON7,201,128,154,17
+    GROUPBOX        "显卡",IDC_STATIC,191,173,176,113
+    EDITTEXT        IDC_EDIT4,237,188,117,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "自定义显卡序列号",IDC_BUTTON8,199,256,154,17
+    GROUPBOX        "网卡",IDC_STATIC,375,7,176,104
+    CONTROL         "全清空ARP TABLE",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,387,61,108,10
+    CONTROL         "随机化全部物理MAC地址",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,387,77,108,10
+    LTEXT           "序列号:",IDC_STATIC,15,84,30,8
+    LTEXT           "硬盘名:",IDC_STATIC,15,100,30,8
+    EDITTEXT        IDC_EDIT5,52,98,117,12,ES_AUTOHSCROLL
+    LTEXT           "固件值:",IDC_STATIC,15,116,30,8
+    EDITTEXT        IDC_EDIT6,52,114,117,12,ES_AUTOHSCROLL
+    LTEXT           "序列号:",IDC_STATIC,16,223,30,8
+    LTEXT           "供应商:",IDC_STATIC,200,22,30,8
+    EDITTEXT        IDC_EDIT7,237,19,117,12,ES_AUTOHSCROLL
+    LTEXT           "版本号:",IDC_STATIC,200,40,30,8
+    EDITTEXT        IDC_EDIT8,237,37,117,12,ES_AUTOHSCROLL
+    LTEXT           "时间点:",IDC_STATIC,200,58,30,8
+    LTEXT           "制作商:",IDC_STATIC,200,76,30,8
+    LTEXT           "产品名:",IDC_STATIC,200,94,30,8
+    LTEXT           "序列号:",IDC_STATIC,200,112,30,8
+    EDITTEXT        IDC_EDIT9,237,55,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,237,73,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,237,91,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,237,109,117,12,ES_AUTOHSCROLL
+    LTEXT           "序列号:",IDC_STATIC,200,192,30,8
+    LTEXT           "显卡名:",IDC_STATIC,200,214,30,8
+    EDITTEXT        IDC_EDIT13,237,210,117,12,ES_AUTOHSCROLL
+    LTEXT           "显存数:",IDC_STATIC,200,236,30,8
+    EDITTEXT        IDC_EDIT14,237,232,117,12,ES_AUTOHSCROLL
+    CONTROL         "自定义全部物理MAC地址",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,387,93,108,10
+    LTEXT           "物理MAC:",IDC_STATIC,387,21,36,8
+    EDITTEXT        IDC_EDIT15,429,19,117,12,ES_AUTOHSCROLL
+    LTEXT           "当前MAC:",IDC_STATIC,387,40,36,8
+    EDITTEXT        IDC_EDIT17,429,38,117,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 551
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "user.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "懒人科技无限公司"
+            VALUE "FileDescription", "这是一个修改硬件数据的程序"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Spoofer.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2021 - 2020"
+            VALUE "OriginalFilename", "Spoofer.exe"
+            VALUE "ProductName", "硬件信息修改程序"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
